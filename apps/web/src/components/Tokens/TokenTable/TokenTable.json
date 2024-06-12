@@ -1,0 +1,54 @@
+[
+  {
+    "index": 1,
+    "tokenDescription": "<TokenDescription token={token} />",
+    "price": 100,
+    "testId": "token-table-row-address1",
+    "percentChange1hr": "+5%",
+    "percentChange1d": "-2%",
+    "fdv": 5000,
+    "volume": 10000,
+    "sparkline": "<SparklineContainer>...</SparklineContainer>",
+    "link": "https://example.com/token1",
+    "analytics": {
+      "elementName": "TOKENS_TABLE_ROW",
+      "properties": {
+        "chain_id": 1,
+        "token_address": "address1",
+        "token_symbol": "ABC",
+        "token_list_index": 0,
+        "token_list_rank": 1,
+        "token_list_length": 10,
+        "time_frame": "1h",
+        "search_token_address_input": ""
+      }
+    },
+    "linkState": { "preloadedLogoSrc": "https://example.com/logo1.png" }
+  },
+  {
+    "index": 2,
+    "tokenDescription": "<TokenDescription token={token} />",
+    "price": 200,
+    "testId": "token-table-row-address2",
+    "percentChange1hr": "-3%",
+    "percentChange1d": "+7%",
+    "fdv": 6000,
+    "volume": 12000,
+    "sparkline": "<SparklineContainer>...</SparklineContainer>",
+    "link": "https://example.com/token2",
+    "analytics": {
+      "elementName": "TOKENS_TABLE_ROW",
+      "properties": {
+        "chain_id": 1,
+        "token_address": "address2",
+        "token_symbol": "XYZ",
+        "token_list_index": 1,
+        "token_list_rank": 2,
+        "token_list_length": 10,
+        "time_frame": "1h",
+        "search_token_address_input": ""
+      }
+    },
+    "linkState": { "preloadedLogoSrc": "https://example.com/logo2.png" }
+  }
+]

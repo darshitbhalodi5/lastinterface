@@ -1,0 +1,42 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 80rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.flexContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+.netIcon {
+  padding: 1.5rem;
+  --tw-bg-opacity: 1;
+}
+.flexInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  align-items: center;
+}
+.switch {
+  background-color: #e9e002;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  border: none;
+  margin-top: 10px;
+  font-size: 15px;
+  color: black !important;
+  padding: 13px;
+  border-radius: 0.75rem;
+}
+.info1 {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+.info2 {
+  letter-spacing: 1px;
+}
