@@ -16544,7 +16544,7 @@ __metadata:
     "@uniswap/merkle-distributor": 1.0.1
     "@uniswap/redux-multicall": 1.1.8
     "@uniswap/token-lists": 1.0.0-beta.33
-    "@uniswap/uniswapx-sdk": 2.0.4-alpha.1
+    "@uniswap/uniswapx-sdk": 2.0.1-alpha.4
     "@uniswap/v2-core": 1.0.1
     "@uniswap/v2-periphery": 1.1.0-beta.0
     "@uniswap/v3-core": 1.0.1
@@ -16668,7 +16668,9 @@ __metadata:
     tsafe: 1.6.4
     typescript: 5.3.3
     udonswap-core: 1.2.0
+    udonswap-permit2: 1.2.0
     udonswap-router: 1.2.0
+    udonswap-sdk-universal-router: 1.2.0
     udonswap-smart-order-router-v3: 1.2.1
     udonswap-v3: 1.2.0
     uniswap: "workspace:^"
@@ -16863,6 +16865,8 @@ __metadata:
     statsig-react-native: 4.11.0
     typed-redux-saga: 1.5.0
     typescript: 5.3.3
+    udonswap-core: 1.2.0
+    udonswap-v3: 1.2.0
     uniswap: "workspace:^"
     utilities: "workspace:^"
     wallet: "workspace:^"
@@ -16877,16 +16881,6 @@ __metadata:
     ethers: ^5.3.1
     tiny-invariant: ^1.3.1
   checksum: 524519c4f5492a721de9215f4c74c18af4a8a4f676273ccc9c01512fe36c8e8ac51dd3474b19021522b76ef2edd25d9c871b0eb051e22b6564e37cd2b9422920
-  languageName: node
-  linkType: hard
-
-"@uniswap/permit2-sdk@npm:^1.2.1":
-  version: 1.3.0
-  resolution: "@uniswap/permit2-sdk@npm:1.3.0"
-  dependencies:
-    ethers: ^5.7.0
-    tiny-invariant: ^1.1.0
-  checksum: 828a63c52673a5b4eefa769c0ecc2da667fe5573a3c447d0fea3809b46e7a71376a48917d959f253abba01e9faa442a503dd65649687a6bf7b385ee9f6d41afd
   languageName: node
   linkType: hard
 
@@ -16934,7 +16928,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@uniswap/sdk-core@npm:^4.2.0, @uniswap/sdk-core@npm:^4.2.1":
+"@uniswap/sdk-core@npm:^4.0.3, @uniswap/sdk-core@npm:^4.2.0":
   version: 4.2.1
   resolution: "@uniswap/sdk-core@npm:4.2.1"
   dependencies:
@@ -16969,16 +16963,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@uniswap/uniswapx-sdk@npm:2.0.4-alpha.1":
-  version: 2.0.4-alpha.1
-  resolution: "@uniswap/uniswapx-sdk@npm:2.0.4-alpha.1"
+"@uniswap/uniswapx-sdk@npm:2.0.1-alpha.4":
+  version: 2.0.1-alpha.4
+  resolution: "@uniswap/uniswapx-sdk@npm:2.0.1-alpha.4"
   dependencies:
     "@ethersproject/bytes": ^5.7.0
     "@ethersproject/providers": ^5.7.0
-    "@uniswap/permit2-sdk": ^1.2.1
-    "@uniswap/sdk-core": ^4.2.1
+    "@uniswap/permit2-sdk": ^1.2.0
+    "@uniswap/sdk-core": ^4.0.3
     ethers: ^5.7.0
-  checksum: 794af6e2ed1ef18b48b76e2db730422fb78dd6e980424482587fb4e9db9ac291705d6e3b4ceaee07c1ea48ee483b2d9943dbc45c6afd95a1af7d76e3520083d5
+  checksum: 1f0a497e7277518cfcfb425f27e3b9cfd79bbad226bcffa7885f822e1c2a33e66c0412c7dd25c296cc966b881e63233636add2eba76751a30c7ba2a6cd9096cb
   languageName: node
   linkType: hard
 
@@ -46298,6 +46292,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"udonswap-permit2@npm:1.2.0":
+  version: 1.2.0
+  resolution: "udonswap-permit2@npm:1.2.0"
+  dependencies:
+    ethers: ^5.3.1
+    tiny-invariant: ^1.3.1
+  checksum: 308f23742918dd6dd0183dadb2df4dce81b31a6e4075193282c14837f0aa74d59325d3851cc841e2550203c2941dfe9ac55b66587747c6e39fb9ac350eedadf7
+  languageName: node
+  linkType: hard
+
 "udonswap-router@npm:1.2.0":
   version: 1.2.0
   resolution: "udonswap-router@npm:1.2.0"
@@ -47803,7 +47807,6 @@ __metadata:
     "@types/zxcvbn": 4.4.2
     "@uniswap/analytics-events": 2.32.0
     "@uniswap/eslint-config": "workspace:^"
-    "@uniswap/permit2-sdk": ^1.2.0
     apollo-link-rest: 0.9.0
     axios: 1.6.5
     dayjs: 1.11.7
@@ -47849,6 +47852,7 @@ __metadata:
     typed-redux-saga: 1.5.0
     typescript: 5.3.3
     udonswap-core: 1.2.0
+    udonswap-permit2: 1.2.0
     udonswap-router: 1.2.0
     udonswap-sdk-universal-router: 1.2.0
     udonswap-v3: 1.2.0

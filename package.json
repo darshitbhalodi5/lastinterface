@@ -35,10 +35,10 @@
   },
   "resolutions": {
     "cypress": "12.12.0",
-    "udonswap-core": "1.2.0",
     "@babel/preset-env": "7.23.3",
     "immer": "9.0.21",
     "@apollo/client": "3.9.6",
+    "udonswap-core": "1.2.0",
     "@react-navigation/routers": "6.1.9",
     "@react-navigation/core": "6.2.2",
     "@sideway/formula": "3.0.1",
@@ -110,6 +110,7 @@
     "lfg": "yarn g:prepare && yarn mobile env:local:download && yarn stretch env:local:download && yarn g:build && yarn mobile pod && yarn mobile ios",
     "mobile": "yarn workspace @uniswap/mobile",
     "local:check": "./scripts/local-version-check.sh",
+    "postinstall": "husky install && yarn g:prepare",
     "stretch": "yarn workspace @uniswap/stretch",
     "ui:build:icons": "yarn workspace ui build:icons",
     "upgrade:tamagui": "yarn up '*tamagui*' '@tamagui/*'",
@@ -117,8 +118,7 @@
     "wallet": "yarn workspace wallet",
     "web": "yarn workspace @uniswap/interface",
     "uniswap": "yarn workspace uniswap",
-    "utilities": "yarn workspace utilities",
-    "postinstall": "husky install && yarn g:prepare"
+    "utilities": "yarn workspace utilities"
   },
   "workspaces": [
     "apps/*",
